@@ -1,0 +1,345 @@
+.ui-helper-hidden {
+	display: none !important;
+}
+.ui-helper-hidden-accessible {
+	border: 0 !important;
+	clip: rect(0 0 0 0) !important;
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+}
+.ui-helper-reset {
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	outline: 0 !important;
+	line-height: 1.3 !important;
+	text-decoration: none !important;
+	font-size: 100% !important;
+	list-style: none !important;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "" !important;
+	display: table !important;
+	border-collapse: collapse !important;
+}
+.ui-helper-clearfix:after {
+	clear: both !important;
+}
+.ui-helper-clearfix {
+	min-height: 0 !important; /* support: IE7 */
+}
+.ui-helper-zfix {
+	width: 100% !important;
+	height: 100% !important;
+	top: 0 !important;
+	left: 0 !important;
+	position: absolute !important;
+	opacity: 0 !important;
+	filter:Alpha(Opacity=0) !important; /* support: IE8 */
+}
+
+.ui-front {
+	z-index: 100 !important;
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	display: block !important;
+	text-indent: -99999px !important;
+	overflow: hidden !important;
+	background-repeat: no-repeat !important;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 100% !important; 
+}
+
+/*!
+ * jQuery UI Resizable 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ */
+.ui-resizable {
+	position: relative !important;
+}
+.ui-resizable-handle {
+	position: absolute !important;
+	font-size: 0.1px !important;
+	display: block !important;
+	-ms-touch-action: none !important;
+	touch-action: none !important;
+}
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+	display: none !important;
+}
+.ui-resizable-n {
+	cursor: n-resize !important;
+	height: 7px !important;
+	width: 100% !important;
+	top: -5px !important;
+	left: 0 !important;
+}
+.ui-resizable-s {
+	cursor: s-resize !important;
+	height: 7px !important;
+	width: 100% !important;
+	bottom: -5px !important;
+	left: 0 !important;
+}
+/* rtl:ignore */
+.ui-resizable-e {
+	cursor: e-resize !important;
+	width: 7px !important;
+	right: -5px !important;
+	top: 0 !important;
+	height: 100% !important;
+}
+/* rtl:ignore */
+.ui-resizable-w {
+	cursor: w-resize !important;
+	width: 7px !important;
+	left: -5px !important;
+	top: 0 !important;
+	height: 100% !important;
+}
+/* rtl:ignore */
+.ui-resizable-se {
+	cursor: se-resize !important; 
+	width: 12px !important;
+	height: 12px !important;
+	right: 1px !important;
+	bottom: 1px !important;
+}
+/* rtl:ignore */
+.ui-resizable-sw {
+	cursor: sw-resize;
+	width: 9px !important;
+	height: 9px !important;
+	left: -5px !important;
+	bottom: -5px !important;
+}
+/* rtl:ignore */
+.ui-resizable-nw {
+	cursor: nw-resize;
+	width: 9px !important;
+	height: 9px !important;
+	left: -5px !important;
+	top: -5px !important;
+}
+/* rtl:ignore */
+.ui-resizable-ne {
+	cursor: ne-resize !important;
+	width: 9px !important;
+	height: 9px !important;
+	right: -5px !important;
+	top: -5px !important;
+}
+
+/* WP buttons: see buttons.css. */
+
+.ui-button {
+	display: inline-block !important;
+	text-decoration: none !important;
+	font-size: 13px !important;
+	line-height: 26px !important;
+	height: 22px !important;
+	margin: 0 !important;
+	padding: 0 10px 1px !important;
+	cursor: pointer !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	-webkit-appearance: none !important;
+	-webkit-border-radius: 3px !important;
+	border-radius: 3px !important;
+	white-space: nowrap !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important; 
+	box-sizing: border-box !important;
+	color: #555 !important;
+	border-color: #cccccc !important;
+	background: #f7f7f7 !important;
+	-webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba( 0, 0, 0, 0.08 ) !important;
+	box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba( 0, 0, 0, 0.08 ) !important;
+	vertical-align: top !important;
+}
+
+.ui-button:active,
+.ui-button:focus {
+	outline: none !important;
+}
+
+/* Remove the dotted border on :focus and the extra padding in Firefox */
+.ui-button::-moz-focus-inner {
+	border-width: 1px 0 !important;
+	border-style: solid none !important;
+	border-color: transparent !important;
+	padding: 0 !important;
+}
+
+.ui-button:hover,
+.ui-button:focus {
+	background: #fafafa !important;
+	border-color: #999 !important;
+	color: #23282d !important;
+}
+
+.ui-button:focus {
+	-webkit-box-shadow:
+		0 0 0 1px #5b9dd9 !important,
+		0 0 2px 1px rgba( 30, 140, 190, 0.8 ) !important;
+	box-shadow:
+		0 0 0 1px #5b9dd9 !important,
+		0 0 2px 1px rgba( 30, 140, 190, 0.8 ) !important;
+}
+
+.ui-button:active {
+	background: #eee !important;
+	border-color: #999 !important;
+	color: #32373c !important;
+	-webkit-box-shadow: inset 0 2px 5px -3px rgba( 0, 0, 0, 0.5 ) !important;
+	box-shadow: inset 0 2px 5px -3px rgba( 0, 0, 0, 0.5 ) !important;
+}
+
+.ui-button[disabled],
+.ui-button:disabled {
+	color: #a0a5aa !important;
+	border-color: #ddd !important;
+	background: #f7f7f7 !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	text-shadow: 0 1px 0 #fff !important;
+	cursor: default !important;
+}
+
+@media screen and ( max-width: 782px ) {
+
+	.ui-button {
+		padding: 10px 14px !important;
+		line-height: 1 !important;
+		font-size: 14px !important;
+		vertical-align: middle !important;
+		height: auto !important;
+		margin-bottom: 4px !important;
+	}
+
+}
+
+/* WP Theme */
+
+.ui-dialog {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	z-index: 100102 !important;
+	background-color: #fff !important;
+	-webkit-box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 ) !important;
+	box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 ) !important;
+}
+
+.ui-dialog-titlebar {
+	background: #fcfcfc !important;
+	border-bottom: 1px solid #dfdfdf !important;
+	/*height: 36px !important;*/
+	font-size: 17px !important;
+	font-weight: 600 !important;
+	line-height: 36px !important;
+	padding: 0 10px !important;
+	color: #444 !important;
+}
+
+.ui-button.ui-dialog-titlebar-close {
+	background: none !important;
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	color: #666 !important;
+	cursor: pointer !important;
+	display: block !important;
+	padding: 0 !important;
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	width: 36px !important;
+	height: 36px !important;
+	text-align: center !important;
+}
+
+.ui-dialog-titlebar-close {
+	background-image: url("../images/dismiss.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: 15px 15px !important;
+    margin-top: 10px !important;
+}
+
+.ui-button.ui-dialog-titlebar-close:hover {
+	color: #00a0d2 !important;
+}
+
+.ui-dialog-titlebar-close .ui-button-text {
+	display: none !important;
+}
+
+.ui-dialog-content {
+	padding: 16px !important;
+	overflow: auto !important;
+}
+
+.ui-dialog-buttonpane {
+	background: #fcfcfc !important;
+	border-top: 1px solid #dfdfdf !important;
+	padding: 16px !important;
+}
+
+.ui-dialog-buttonpane .ui-button {
+	margin-left: 16px !important;
+}
+
+.ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: right !important;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+	cursor: move !important;
+}
+
+.ui-widget-overlay {
+	position: fixed !important;
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	min-height: 360px !important;
+	background: #000 !important;
+	opacity: 0.7 !important;
+	filter: alpha(opacity=70) !important;
+	z-index: 100101 !important;
+}

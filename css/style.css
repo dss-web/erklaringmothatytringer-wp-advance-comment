@@ -1,0 +1,145 @@
+@font-face {font-family: "Josefin Sans"; src: url('../fonts/JosefinSans-Regular.ttf'); font-weight: 400; }
+@font-face {font-family: "Josefin Sans"; src: url('../fonts/JosefinSans-Bold.ttf'); font-weight: 600; }
+.wpad_showing_results {background: #fff none repeat scroll 0 0; margin: 10px 0; padding: 7px; text-align: center; text-transform: capitalize; }
+.wpad_showing_results button {font-size: 11px !important; margin-right: 4px !important; }
+.wpad_showing_results button[disabled]{color: #fff !important; }
+.wpad_showing_results span {font-size: 18px; line-height: 28px; padding: 0 0 0 4px; }
+.pagination ul {margin: 0; }
+.pagination ul li {display: inline; margin: 0; }
+.pagination ul li a {font-size: 14px !important; margin-right: 2px; padding: 5px 14px !important; border: medium none !important; display: inline !important; }
+.not_click {pointer-events: none; }
+.pagination .active.not_click {background: #3399FF none repeat scroll 0 0; color: #fff; }
+ .pagination .displaying-num {margin-right: 10px !important; }
+.bulkactions img {margin: 5px 0 0 5px; width: 21px; }
+.bulkactions select,.actions select{font-size: 15px; }
+.tablenav .tablenav-pages{font-size: 14px; }
+.message_box {padding: 8px 6px !important; } 
+.post-com-count{cursor: default; }
+.wpuf-form-buttons .button {height: auto; margin: 0 0 5px; padding: 2px 10px; /*width: 100%;*/ }
+.submitbox {margin: 10px 0 0; }
+#wpuf-metabox-editor {background: transparent none repeat scroll 0 0; border: medium none; box-shadow: none; }
+#wpuf-metabox-editor .inside {margin: 0; padding: 0; }
+#wpuf-metabox-editor h2.nav-tab-wrapper {padding: 0; }
+ #wpuf-metabox-editor h2.nav-tab-wrapper a:first-child {margin-left: 10px; }
+.wpuf-form-editor {font-size: 12px; margin: 0; }
+.wpuf-form-editor li {background: #fff none repeat scroll 0 0; border: 1px solid #dfdfdf; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); margin-bottom: 10px; }
+.wpuf-form-editor li .wpuf-legend::after {clear: both; content: ""; display: table; }
+.wpuf-form-editor li .wpuf-legend {background: #fff none repeat scroll 0 0; border-bottom: 1px solid #eee; color: #464646; padding: 7px 10px; }
+.wpuf-form-editor li .wpuf-legend .wpuf-label {float: left; font-family: Trebuchet MS; font-size: 14px; margin: 2px 0 0; width: 70%; }
+.wpuf-form-editor li .wpuf-legend .wpuf-actions {float: right; }
+.wpuf-form-editor li .wpuf-legend .wpuf-actions a.wpuf-remove {background: transparent url("../images/delete.png") no-repeat scroll 70% 50%; color: #f00; display: inline-block; text-indent: -9999px; width: 16px; }
+.wpuf-form-editor li .wpuf-legend .wpuf-actions a {font-size: 11px; padding: 2px 5px; }
+.wpuf-form-editor li .wpuf-legend .wpuf-actions a.wpuf-toggle {background: transparent url("../images/arrows.png") no-repeat scroll 0 2px; display: inline-block; text-indent: -9999px; width: 10px; }
+.wpuf-form-editor li .wpuf-form-holder {padding: 10px; }
+.wpuf-form-editor li .wpuf-form-rows::after {clear: both; content: ""; display: table; }
+.wpuf-form-editor li .wpuf-form-rows {padding-bottom: 3px; }
+.wpuf-form-editor li .wpuf-form-rows label {float: left; font-size: 14px; width: 20%; }
+.wpuf-form-editor li .wpuf-form-rows .wpuf-form-sub-fields {float: left; width: 77%; }
+.wpuf-form-editor li .wpuf-form-rows .wpuf-form-sub-fields label {display: inline-block; float: none; width: auto; }
+.wpad_show_only_admin .wpad_check input {width: auto !important; }
+.wpad_show_only_admin label.wpad_check{display: inline-block; float: none !important; width: auto !important; }
+.wpuf-form-editor li .wpuf-form-rows textarea {width: 60%; }
+#wpuf-metabox-editor .wpuf-updated {background-color: #ffffe0; border: 1px solid #e6db55; border-radius: 5px; font-weight: bold; margin: 5px 0 15px; padding: 0 10px; }
+.comment_form_buttons button img{margin: 0 0 0 7px; padding: 0; width: 15px; }
+a:focus {box-shadow: none !important; }
+.ui-state-highlight {height: 3.5em; line-height: 2em; background: #eee !important; border: 1px dashed #ccc !important; }
+li.post_title .wpuf-legend {cursor: move; }
+#publishing-action img {margin: 4px 10px 0 0; }
+.wpad_tooltip{display: inline; position: relative; }
+.wpad_tooltip span::before {color: #000; content: "\f223"; display: inline; font-family: "dashicons"; position: relative; }
+.wpad_tooltip:hover:after{background: #333; background: rgba(0,0,0,.8); /*border-radius: 5px;*/ bottom: 26px; color: #fff; content: attr(tool_tip); left: 20%; padding: 7px 15px; position: absolute; z-index: 98; width: 220px; }
+.wpad_tooltip:hover:before{border: solid; border-color: #333 transparent; border-width: 7px 6px 0; bottom: 20px; content: ""; left: 9px; position: absolute; z-index: 99; }
+.wpad_tooltip span {font-size: 18px; padding: 0 0 0 5px; position: relative; }
+.wpuf-form-rows input:not([type='radio']), .wpuf-form-rows textarea {font-size: 14px; padding: 5px 10px; width: 60%; }
+.required {color: rgb(255, 0, 0); }
+.wpuf-form-editor li .wpuf-form-rows .wpuf-form-sub-fields.wpuf-options {margin-bottom: 10px; }
+.wpuf-form-editor li .wpuf-form-rows .wpuf-form-sub-fields .wpuf-show-field-value {margin: 7px 0; }
+.wpad_radio_option input {width: auto !important; }
+.wpuf-form-editor li .wpuf-form-rows .wpuf-form-sub-fields .wpuf-option-label-value {margin: 10px 0 5px; }
+.wpuf-form-editor li .wpuf-form-rows .wpuf-form-sub-fields .wpuf-option-label-value span {font-weight: bold; margin-left: 10%; margin-right: 11%; }
+.radio_option_wrapper2 input[type="text"] {margin: 1px 4px 1px 1px; }
+.radio_option_wrapper2 .wpad-clone-field {margin: 0 5px !important; }
+#wpad_dialog p {margin: 0; }
+#comment-status-display {text-transform: capitalize; font-weight: bold; }
+.comment_status_wrapper #comment_status option {font-size: 12px; }
+.nav-tab-wrapper {margin-top: 0 !important; }
+.wpad_access_error {background: #fff none repeat scroll 0 0; margin-top: 30px; padding: 1px; text-align: center; width: 98%; }
+.form-table.editcomment tr td p {font-size: 13px; line-height: 21px; margin: 0 !important; }
+table.editcomment tr td {padding: 10px; vertical-align: top; }
+#post-body-content #namediv h3 {border-bottom: 1px solid #eee; }
+#postbox-container-1 #submitdiv h3 {border-bottom: 1px solid #eee; }
+.editcomment textarea {height: 100px; resize: none; width: 98%; }
+.wpad_editcomment input[type="radio"] , .wpad_editcomment input[type="checkbox"] {width: auto !important; }
+.wpad_editcomment tr td label {font-size: 12px; }
+#namediv label {cursor: default; }
+#wpuf-metabox-fields .hndle{cursor: default; }
+.wpad_form_published_status{color: #009200; }
+.wpad_form_pending_status{color: #f00; }
+.wpad_form_show_comments_status{color: #D43D93; }
+#wpad-metabox-notification h3{border-bottom: 1px solid #ddd; }
+#wpad_dialog_label p {margin: 0; }
+#wpad_dialog_same_keys p{margin: 0; }
+#wpad_dialog_same_keys .multiple_keys{font-weight: bold; color: #f00; }
+.inside p.edit_comment_shortcode {background: #ffffe0 none repeat scroll 0 0; border: 1px solid #e6db55; border-radius: 5px; margin: 0; padding: 8px 0; text-align: center; font-size: 14px; }
+.wpuf-form-sub-fields .validation_name option {font-size: 12px; padding: 3px; }
+.wpuf-form-sub-fields select.validation_name {font-size: 13px; }
+.wpuf-form-sub-fields .validation_fields input {width: 36% !important; }
+.wpuf-form-sub-fields select.validation_name {font-size: 12px; font-weight: 700; padding: 0 10px; }
+.validation-condition {padding: 5px 0 0 !important; }
+ .validation_condition_wrap {padding: 3px 0 0; }
+.wpad_alert{background: #fff none repeat scroll 0 0; border-left: 4px solid #ff8c00; box-shadow: 2px 2px 5px #ccc; color: inherit; margin: 20px 0; padding: 5px 14px; }
+.wpad_alert p {margin: 5px 0; }
+.wpad_addons ul li {float: left; margin: 10px 15px 10px 0; width: 300px; }
+.wpad_box{background: #ffffff none repeat scroll 0 0; border: 1px solid #e5e5e5; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); position: relative; }
+ .wpad_box .addon_inner {padding: 15px; min-height: 133px; }
+.wpad_box .addon_inner h3 {margin-top: 0.5em; }
+.wpad_box .addon_inner h3 a {color: inherit; text-decoration: none; }
+.wpad_box .addon_footer {background: #f5f5f5 none repeat scroll 0 0; border-top: 1px solid #e1e1e1; overflow: hidden; padding: 15px; position: relative; text-align: center; }
+.wpad_box img {width: 100%; }
+.addon_footer .dashicons.dashicons-yes {background: #52d4bc none repeat scroll 0 0; color: #fff; font-size: 15px; height: 14px; margin: 6px; padding: 0; text-align: center; width: 15px; border-radius: 2px; }
+.widefat .check-column {padding: 10px 3px 0; }
+.accordion_container #wpad_add_forms a.support_heading {border: 1px solid #ddd; color: inherit; display: table; font-size: 20px; font-weight: 600; padding: 10px 0; text-align: center; text-decoration: none; width: 100%; margin: 10px 0; }
+.accordion_container #wpad_add_forms .content {font-size: 15px; font-weight: 400; line-height: 22px; margin: 20px 10px; }
+.accordion_container {background: #fff none repeat scroll 0 0; margin-top: 15px; max-width: 1100px; padding: 15px; width: 100%; }
+.accordion_container #wpad_add_forms a.support_heading:hover {background: #d8bfd8 none repeat scroll 0 0; border: 1px solid #d8bfd8; color: #fff; }
+.wrap {font-family: "Josefin Sans"; font-weight: 400; }
+.subsubsub a {font-size: 15px; }
+.wpad_showing_results .button {font-size: 13px !important; }
+.comment.column-comment p, .report.column-report p{font-size: 15px; }
+.post-com-count.post-com-count-approved .comment-count-approved {font-size: 13px !important; font-weight: 600; height: auto; line-height: 24px; margin: 0; padding: 0; }
+table.comments thead tr {background: #fafafa none repeat scroll 0 0; }
+table.comments thead tr th ,table.comments tfoot tr th {font-weight: 600; }
+.comment .submitted-on {font-size: 14px; }
+#the-comment-list tr td strong , #the-comment-list2 tr td strong {font-size: 15px; }
+#the-comment-list tr td.author.column-author a {font-size: 15px; }
+.response-links a.comments-edit-item-link {font-size: 15px; padding-bottom: 5px; }
+table.wp-list-table tr th {font-size: 14px; font-weight: 600; }
+#message.notice p {font-size: 14px; }
+.comments_list tbody tr strong a {font-size: 15px; }
+.comments_list tbody tr td .row-actions a {font-size: 14px; }
+.comments_list tbody tr td.comment_status {font-size: 15px; }
+.comment_list_shortcode {font-size: 14px !important; }
+.response-links .post-com-count-wrapper {white-space: normal !important; }
+.wpad_settings_page{margin-top: 20px; }
+.wpad_settings_page .tab-content table {margin: 20px 0 0 !important; }
+.wpad_error {background: #fff none repeat scroll 0 0; border-left: 4px solid #f00; padding: 7px 15px 12px; font-size: 14px; }
+.wpad_success {background: #fff none repeat scroll 0 0; border-left: 4px solid #7ad03a; padding: 7px 15px 12px; font-size: 14px; }
+.wpad_other_options {padding: 5px 5px 10px; }
+.wpad_pages_posts a {height: 32px !important; line-height: 11px !important; padding: 10px !important; width: 100%; }
+.wpad_pages_posts {margin: 15px 0 0; }
+.wpad_post_type_pages {border-bottom: 1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd; margin: 0 0 9px; padding: 10px 10px 5px; }
+.wpad_arraw_down {line-height: 11px; }
+.wpad_post_type_pages .select_all_li {border-bottom: 1px solid #ddd; margin: 0 0 8px; padding: 0 0 10px; }
+.woocommerce_notice {padding: 12px 12px 12px; background-color: hsla(341, 69%, 47%, 0.83); color: #fff; margin: 0 0 20px 0; }
+.woocommerce_notice p {margin: 0; font-size: 14px; }
+.woocommerce_notice h3 {padding: 5px 0 7px 1px !important; border-bottom: 1px solid #fff; margin: 0 0 6px 0 !important; color: #fff; }
+.wpad_button{box-shadow: none !important; background: hsla(341, 69%, 47%, 0.83) !important; color: #fff !important; border-color: #AF1C4B !important; margin-right: 5px !important; }
+.wpad_error_message .skip{opacity: 0.5; }
+.wpad_error_message .skip:hover{opacity: 1; }
+.wpad_error_message .wpad_loader1{margin: 4px 0 0 3px; }
+.wpad_fields_wrapper {display: table; width: 80%; }
+.wpad_section_break ~ li:not(.wpad_section_break) {margin: 0 0 10px 20px; }
+.wpad_section_break ~ li:not(.wpad_section_break)::before {border-bottom: 1px solid #aaa; border-left: 1px solid #aaa; content: "\00a0\00a0\00a0\00a0"; display: table; left: 2px; margin: 8px 0 0; position: absolute; }
+.column-reported {
+    width: 8%;
+}

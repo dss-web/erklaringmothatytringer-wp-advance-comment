@@ -1,0 +1,187 @@
+.wpad_form_group label{width: 25%; float: left; text-align: right; padding-left: 15px; padding-right: 15px; padding-top: 5px; font-size: 15px; }
+.wpad_form_group {background: #fff none repeat scroll 0 0; padding: 10px 20px; }
+.wpad_form_group .input_container{/*width: 80%;*/ padding-left: 15px; padding-right: 15px; display: table; }
+.wpad_form_group .input_control{background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; color: #555; display: block; font-size: 14px; line-height: 1.42857; padding: 6px 12px; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; float: left; }
+.wpad_help_text { line-height: 20px; color: #aaa; display: table; font-size: 13px; clear: both; padding: 10px 0 0; margin: 8px 0 0; }
+.wpad_required{color: #f00; }
+.wpad_radio_wrapper label input {float: left !important; width: auto !important; margin:0 10px 0 0; }
+.wpad_radio_wrapper label {display: table !important; float: none !important; font-size: 13px; font-style: normal !important; font-weight: 500; line-height: 15px; margin: 5px 0; padding-left: 0; text-align: left; width: auto; }
+.wpad_error_fields {clear: both; color: #f00; font-size: 14px; }
+.wpad_form_group select {width: auto !important; font-size: 14px; padding: 5px; } 
+.wpad_radio_wrapper .wpad_help_text {padding-left: 0; } 
+.wpad_submit_comment {float: left; } 
+.input_container .wpad_submit_loader {float: left; margin-left: 10px; margin-top: 6px; } 
+.wpad_success_comment p {background: #eee none repeat scroll 0 0; margin: 0 0 15px; padding: 6px 10px 8px !important; text-align: center; } 
+#wp_advance_comment_form {background: #fff none repeat scroll 0 0; } 
+.wpad_row {width: 100%; display: inline-block; margin-bottom: 10px; } 
+.wpad_image_user {border-radius: 10px; float: left; margin: 0 6px 0 0; width: 70px; }
+.wpad_content_comment {border: 1px solid #ddd; border-radius: 8px; display: table; font-size: 14px; width: 100%; }
+.wpad_image_user img {background: #fff none repeat scroll 0 0; border: 2px solid #eee !important; border-radius: 50%; padding: 3px !important; width: 100%; height: auto; }
+.wpad_right {float: right; }
+.wpad_content_comment p {font-size: 13px; line-height: 22px; margin: 5px 0; padding: 0; }
+.wpad_list_comments_frontend {padding: 15px; width: 100%; }
+.wpad_comment_fields_wrapper {/*border-top: 1px solid #ddd;*/ padding: 10px 0 0; }
+.wpad_time {font-size: 12px; line-height: 25px; padding-left: 10px; }
+.wpad_comment_fields_wrapper h3 {padding: 10px 20px; margin: 0 !important; }
+.wpad_comment_meta ul {padding: 0; margin-bottom: 0 !important; margin-left: 0 !important; }
+.wpad_comment_meta ul li {border-left: 3px solid #87cefa; display: inline-block; font-size: 12px; list-style-type: none; padding: 0px 10px; width: 100%; margin: 0; }
+.wpad_comment_meta ul li:last-child{border-bottom: none; margin-bottom: 0; }
+.wpad_comment_meta ul li label {float: left; font-weight: bold; margin-right: 8px; text-align: left; width: 20%; margin-bottom: 0; }
+.wpad_comment_meta ul li .meta_value {display: table; line-height: 22px; padding-right: 10px; }
+.wpad_comment_meta ul li:first-child {margin-top: 8px; }
+.wpad_content_comment img {height: auto !important; max-width: 100% !important; width: 70px !important; float: none; border-radius: 10%; border: 3px solid #eee !important; margin: 10px 0 5px !important; }
+.wpad_content_wrap {margin-left: 95px; padding: 10px 12px; padding: 10px 12px 10px 0; }
+.wpad_front_gravatar {float: left; margin-left: 12px; padding: 10px 0; text-align: center; width: 70px; }
+.edit_comment_front .dashicons {font-size: 16px; /*line-height: 21px;*/ }
+.edit_comment_front {color: inherit; display: table; font-size: 12px; text-align: center; width: 100%; text-decoration: none !important; }
+.edit_comment_front:hover{text-decoration: none; }
+.pagination_wpad li {border: 1px solid #ddd; display: inline-block; margin-right: 5px; padding: 0 !important; width: auto !important; }
+.pagination_wpad li a {padding: 0 10px !important; text-decoration: none; font-size: 14px; line-height: 30px; }
+.pagination_wpad {margin: 0 0 10px !important; padding: 0; }
+.wpad_list_comments_frontend h3 {margin: 15px 0 25px !important; text-align: center; }
+.pagination_wpad li.active {background-color: #808080; }
+.pagination_wpad li.active a{color: #fff; pointer-events: none; }
+.pagination_wpad li a.not_click{pointer-events: none; }
+#wp_advance_comment_form ~ div {display: none; }
+.wpad_input_wrap .wpad_error_fields {border: 1px solid #f00 !important; }
+.wpad_input_wrap input[type=radio].wpad_error_fields , .wpad_input_wrap input[type=radio].wpad_error_fields:focus, .wpad_input_wrap input[type=checkbox].wpad_error_fields , .wpad_input_wrap input[type=checkbox].wpad_error_fields:focus {outline: 1px solid #f00; }
+.wpad_input_wrap .wpad_error_fields:focus {outline: none; border-color: #E89CA3; box-shadow: 0 0 10px #F9A3A3; }
+.wpad_input_wrap input:focus, .wpad_input_wrap textarea:focus , .wpad_input_wrap select:focus {outline-width: 0 !important; }
+.wpad_input_wrap {display: table; }
+.wpad_error {margin: 10px 0 5px; }
+.wpad_section_break_line {border-bottom: 1px solid #ddd; padding: 0; }
+.wpad_section_break,.wpad_section_html{margin: 15px 20px 15px; }
+.wpad_section_break h4 {padding: 0 !important; margin: 0 0 5px 0 !important; }
+.wpad_section_break p {font-size: 13px; line-height: 20px; margin: 10px 0; padding: 0;}
+.wpad_email_not_publish {padding: 0 20px; margin: 0 0 35px 0; }
+.wpad_like_dislike_wrapper img { margin-bottom: 0 !important; width: auto !important; border: none !important; margin: 0; display: inline !important; position: relative; top: 5px; vertical-align: inherit;}
+.wpad_like_dislike_wrapper a {color: #555555; }
+.like_btn_wrap,.dislike_btn_wrap{border: 1px solid #C6C6C6; padding: 1px 10px 3px 4px; background: #fafafa; }
+.wpad_like_text,.wpad_dislike_text {font-size: 12px; font-weight: 700; border-right: 1px solid #C6C6C6; padding-right: 6px; margin-right: 5px; }
+.wpad_like_counter,.wpad_dislike_counter {font-size: 12px; font-weight: 500; }
+.wpad_like_dislike_wrapper {margin: 15px 0 15px; } 
+.dislike_btn_wrap {margin-left: 5px; }
+.wpad_liked {color: #fbb105; }
+a.tooltips {position: relative; display: inline; text-decoration: none; }
+a.tooltips span.wpad_already_voted {position: absolute; width:140px; color: #FFFFFF; background: #000000; height: 25px; line-height: 23px; text-align: center; visibility: hidden; border-radius: 0px; font-size: 12px; }
+a.tooltips span.wpad_already_voted:after {content: ''; position: absolute; top: 100%; left: 50%; margin-left: -8px; width: 0; height: 0; border-top: 8px solid #000000; border-right: 8px solid transparent; border-left: 8px solid transparent; }
+a.tooltips span.wpad_already_voted {visibility: visible; opacity: 1; bottom: 30px; left: 50%; margin-left: -76px; z-index: 999; }
+.wpad_input_wrap .input_control {margin-bottom: 0; }
+.wpad_image_preview {display: block; height: auto !important; padding: 10px 0; width: 250px !important; clear: both; }
+.wpad_admin_tag {
+    background: #1e90ff none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 21px 4px;
+    margin-left: 2px;
+    text-transform: capitalize;
+}
+.wpad_comment_report {
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #c6c6c6;
+    color: #000;
+    font-size: 11px;
+    padding: 3px 15px;
+}
+#wpad_report_comment label {
+    display: table;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+}
+#wpad_report_comment .input-control {
+    height: 100px !important;
+    resize: none;
+    width: 100% !important;
+}
+.wpad_report_button {
+    background: #f5f5f5 none repeat scroll 0 0;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.wpad_btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #b3b3b3;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    font-size: 14px !important;
+    text-transform: capitalize;
+}
+.wpad_primary {
+    background-color: #006dcc;
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#wpad_report_comment h5 {
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    padding: 15px 0 2px;
+    margin-bottom: 10px;
+}
+#wpad_report_comment input {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: auto !important;
+    margin-bottom: 0;
+}
+
+.wpad_error{
+	color:#f00;
+	font-size: 13px;
+}
+textarea[name="text_comment_report"]{
+	font-size: 13px;
+}
+.wpad_report_button img {
+    margin-left: 5px;
+    position: absolute;
+    top: 15px;
+}
+#wpad_thank_you_report_comment p{
+	margin: 0;
+}
+.wpad_dialog .ui-dialog-titlebar button {
+    margin: 8px 0 0 !important;
+    padding: 0;
+    width: 20px;
+
+}
+.wpad_dialog .ui-dialog-title {
+    width: 95% !important;
+}
+#wpad_report_comment form{
+    margin: 0;
+}
+.wpad_report_option label span {
+    color: #000 !important;
+    font-size: 12px;
+}
+.wpad_report_comment_form textarea {
+    font-size: 12px !important;
+    line-height: 20px;
+}
